@@ -935,8 +935,7 @@
 				D4D944D92078F22D0037BFF8 /* DropDownListView */,
 				D4D944DB2078F22D0037BFF8 /* DoneToolbar */,
 			);
-			name = CustomViews;
-			path = ../../../GameGo/GameGo/GameGo/CustomViews;
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 		D4D944662078F22D0037BFF8 /* LoadingView */ = {

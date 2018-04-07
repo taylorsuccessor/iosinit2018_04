@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FormMobileCell" rowHeight="49" id="KGk-i7-Jjw" customClass="FormMobileCell" customModule="Atico" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="48.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mIl-1E-piE">
+                        <rect key="frame" x="0.0" y="0.0" width="115" height="48.5"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flag" translatesAutoresizingMaskIntoConstraints="NO" id="K0a-Nu-gFQ">
+                                <rect key="frame" x="16" y="12.5" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="7Sl-DJ-8Wc"/>
+                                    <constraint firstAttribute="height" constant="25" id="EF2-2I-saG"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="down" translatesAutoresizingMaskIntoConstraints="NO" id="IY9-qv-bO9">
+                                <rect key="frame" x="49" y="19" width="12" height="12"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="12" id="C5P-Eq-8LH"/>
+                                    <constraint firstAttribute="height" constant="12" id="fIZ-Y1-HSh"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="96278" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yn2-vf-fdP">
+                                <rect key="frame" x="69" y="15.5" width="42.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="K0a-Nu-gFQ" firstAttribute="leading" secondItem="mIl-1E-piE" secondAttribute="leading" constant="16" id="3gc-XP-ySg"/>
+                            <constraint firstItem="K0a-Nu-gFQ" firstAttribute="centerY" secondItem="mIl-1E-piE" secondAttribute="centerY" id="762-2q-cCP"/>
+                            <constraint firstItem="IY9-qv-bO9" firstAttribute="centerY" secondItem="mIl-1E-piE" secondAttribute="centerY" id="RTt-hO-Yzj"/>
+                            <constraint firstItem="Yn2-vf-fdP" firstAttribute="centerY" secondItem="mIl-1E-piE" secondAttribute="centerY" id="Z2Z-Xf-xNp"/>
+                            <constraint firstAttribute="width" constant="115" id="bdb-vp-FST"/>
+                            <constraint firstItem="IY9-qv-bO9" firstAttribute="leading" secondItem="K0a-Nu-gFQ" secondAttribute="trailing" constant="8" id="fAH-ti-1ET"/>
+                            <constraint firstItem="Yn2-vf-fdP" firstAttribute="leading" secondItem="IY9-qv-bO9" secondAttribute="trailing" constant="8" id="iQ3-LH-UhT"/>
+                        </constraints>
+                    </view>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1cW-6F-GAo" customClass="BaseTextField" customModule="Atico" customModuleProvider="target">
+                        <rect key="frame" x="118" y="14" width="186" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="hLe-6d-hgl"/>
+                        </constraints>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="mIl-1E-piE" secondAttribute="bottom" id="4Vo-zS-mnR"/>
+                    <constraint firstAttribute="trailing" secondItem="1cW-6F-GAo" secondAttribute="trailing" constant="16" id="5UT-ZU-8K6"/>
+                    <constraint firstItem="1cW-6F-GAo" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="EIr-iZ-4vF"/>
+                    <constraint firstItem="1cW-6F-GAo" firstAttribute="leading" secondItem="mIl-1E-piE" secondAttribute="trailing" constant="3" id="TMr-xJ-5gr"/>
+                    <constraint firstItem="mIl-1E-piE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ZJc-AE-P7S"/>
+                    <constraint firstItem="mIl-1E-piE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="gTF-Rh-GZL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="countryCodeView" destination="mIl-1E-piE" id="hcg-l1-uzP"/>
+                <outlet property="countryFlagLabel" destination="K0a-Nu-gFQ" id="8YU-id-oNS"/>
+                <outlet property="dialCodeLabel" destination="Yn2-vf-fdP" id="0gd-VB-Z6N"/>
+                <outlet property="dropdownIcon" destination="IY9-qv-bO9" id="0er-GE-OYQ"/>
+                <outlet property="flagImageView" destination="K0a-Nu-gFQ" id="e6W-D1-Hvd"/>
+                <outlet property="mobileField" destination="1cW-6F-GAo" id="a7l-BO-o8e"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="-6.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="down" width="32" height="32"/>
+        <image name="flag" width="25" height="25"/>
+    </resources>
+</document>
