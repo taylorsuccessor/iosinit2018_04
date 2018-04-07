@@ -1,0 +1,64 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'APIManager' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for APIManager
+  pod 'AlamofireObjectMapper'
+
+  target 'APIManagerTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'Ureed' do
+  use_frameworks!
+  pod 'UIScrollView-InfiniteScroll'
+  pod 'Kingfisher'
+  pod 'Fusuma'
+  pod 'Cartography'
+  pod 'KMNavigationBarTransition'
+  pod 'MBProgressHUD'
+  pod 'CarbonKit'
+  pod 'DropDown'
+  
+  target 'UreedTests' do
+    inherit! :search_paths
+  end
+
+  target 'UreedUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'Util' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Util
+  pod 'EZSwiftExtensions'
+  pod 'PhoneNumberKit', '~> 2.1'
+
+  target 'UtilTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            if target.name == 'AMScrollingNavbar' || target.name == 'PhoneNumberKit'  || target.name == 'Fusuma' || target.name == 'Cartography'
+                config.build_settings['SWIFT_VERSION'] = '4'
+                else
+                config.build_settings['SWIFT_VERSION'] = '3.0'
+            end
+        end
+    end
+end

@@ -1,0 +1,53 @@
+PODS:
+  - Alamofire (4.6.0)
+  - AlamofireObjectMapper (5.0.0):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 3.0)
+  - CarbonKit (2.2.2)
+  - Cartography (3.0.1)
+  - DropDown (2.3.1)
+  - EZSwiftExtensions (1.11)
+  - Fusuma (1.2.4)
+  - Kingfisher (4.6.1)
+  - KMNavigationBarTransition (1.1.5)
+  - MBProgressHUD (1.1.0)
+  - ObjectMapper (3.1.0)
+  - PhoneNumberKit (2.1.0):
+    - PhoneNumberKit/PhoneNumberKitCore (= 2.1.0)
+    - PhoneNumberKit/UIKit (= 2.1.0)
+  - PhoneNumberKit/PhoneNumberKitCore (2.1.0)
+  - PhoneNumberKit/UIKit (2.1.0):
+    - PhoneNumberKit/PhoneNumberKitCore
+  - UIScrollView-InfiniteScroll (1.0.2)
+
+DEPENDENCIES:
+  - AlamofireObjectMapper
+  - CarbonKit
+  - Cartography
+  - DropDown
+  - EZSwiftExtensions
+  - Fusuma
+  - Kingfisher
+  - KMNavigationBarTransition
+  - MBProgressHUD
+  - PhoneNumberKit (~> 2.1)
+  - UIScrollView-InfiniteScroll
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  AlamofireObjectMapper: 5fafc816351cbbc0d486611aaeba7461c0cbad49
+  CarbonKit: 0dec4738fa489b4c043a5f850c27fd0dbefb57cc
+  Cartography: f8c899bb0f5cf20758644a8eea59a75e98a03a5d
+  DropDown: 20499c7b2731b0d21609af924e47c7677a2be50d
+  EZSwiftExtensions: 84000042202d9fd574f626cda3064143f27fa767
+  Fusuma: e85c394878a2e1549c67140ba7c038aff8d7581c
+  Kingfisher: 1f9157d9c02b380cbd0b7cc890161195164eb634
+  KMNavigationBarTransition: 7a52c9bc25b39b6e3343e980b453facee1591b82
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
+  PhoneNumberKit: 62003f40ff75315fd3738286558bc365365ac222
+  UIScrollView-InfiniteScroll: c132d6d5851daff229ab4a1060ccf70a05a051c9
+
+PODFILE CHECKSUM: 27326cc6392a9705fc29b68d86496b470f2392ee
+
+COCOAPODS: 1.4.0
