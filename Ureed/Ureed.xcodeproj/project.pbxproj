@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4B8937B2078DD0600199682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8937A2078DD0600199682 /* AppDelegate.swift */; };
+		D4B8937D2078DD0600199682 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8937C2078DD0600199682 /* ViewController.swift */; };
+		D4B893802078DD0600199682 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4B8937E2078DD0600199682 /* Main.storyboard */; };
+		D4B893822078DD0600199682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4B893812078DD0600199682 /* Assets.xcassets */; };
+		D4B893852078DD0600199682 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4B893832078DD0600199682 /* LaunchScreen.storyboard */; };
+		D4B893902078DD0700199682 /* UreedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8938F2078DD0700199682 /* UreedTests.swift */; };
+		D4B8939B2078DD0700199682 /* UreedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8939A2078DD0700199682 /* UreedUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4B8938C2078DD0700199682 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B8936F2078DD0600199682 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4B893762078DD0600199682;
+			remoteInfo = Ureed;
+		};
+		D4B893972078DD0700199682 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B8936F2078DD0600199682 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4B893762078DD0600199682;
+			remoteInfo = Ureed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4B893772078DD0600199682 /* Ureed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ureed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B8937A2078DD0600199682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4B8937C2078DD0600199682 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4B8937F2078DD0600199682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4B893812078DD0600199682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4B893842078DD0600199682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4B893862078DD0600199682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4B8938B2078DD0700199682 /* UreedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UreedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B8938F2078DD0700199682 /* UreedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UreedTests.swift; sourceTree = "<group>"; };
+		D4B893912078DD0700199682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4B893962078DD0700199682 /* UreedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UreedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B8939A2078DD0700199682 /* UreedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UreedUITests.swift; sourceTree = "<group>"; };
+		D4B8939C2078DD0700199682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4B893742078DD0600199682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B893882078DD0700199682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B893932078DD0700199682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4B8936E2078DD0600199682 = {
+			isa = PBXGroup;
+			children = (
+				D4B893792078DD0600199682 /* Ureed */,
+				D4B8938E2078DD0700199682 /* UreedTests */,
+				D4B893992078DD0700199682 /* UreedUITests */,
+				D4B893782078DD0600199682 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4B893782078DD0600199682 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4B893772078DD0600199682 /* Ureed.app */,
+				D4B8938B2078DD0700199682 /* UreedTests.xctest */,
+				D4B893962078DD0700199682 /* UreedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4B893792078DD0600199682 /* Ureed */ = {
+			isa = PBXGroup;
+			children = (
+				D4B8937A2078DD0600199682 /* AppDelegate.swift */,
+				D4B8937C2078DD0600199682 /* ViewController.swift */,
+				D4B8937E2078DD0600199682 /* Main.storyboard */,
+				D4B893812078DD0600199682 /* Assets.xcassets */,
+				D4B893832078DD0600199682 /* LaunchScreen.storyboard */,
+				D4B893862078DD0600199682 /* Info.plist */,
+			);
+			path = Ureed;
+			sourceTree = "<group>";
+		};
+		D4B8938E2078DD0700199682 /* UreedTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4B8938F2078DD0700199682 /* UreedTests.swift */,
+				D4B893912078DD0700199682 /* Info.plist */,
+			);
+			path = UreedTests;
+			sourceTree = "<group>";
+		};
+		D4B893992078DD0700199682 /* UreedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4B8939A2078DD0700199682 /* UreedUITests.swift */,
+				D4B8939C2078DD0700199682 /* Info.plist */,
+			);
+			path = UreedUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4B893762078DD0600199682 /* Ureed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4B8939F2078DD0700199682 /* Build configuration list for PBXNativeTarget "Ureed" */;
+			buildPhases = (
+				D4B893732078DD0600199682 /* Sources */,
+				D4B893742078DD0600199682 /* Frameworks */,
+				D4B893752078DD0600199682 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ureed;
+			productName = Ureed;
+			productReference = D4B893772078DD0600199682 /* Ureed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4B8938A2078DD0700199682 /* UreedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4B893A22078DD0700199682 /* Build configuration list for PBXNativeTarget "UreedTests" */;
+			buildPhases = (
+				D4B893872078DD0700199682 /* Sources */,
+				D4B893882078DD0700199682 /* Frameworks */,
+				D4B893892078DD0700199682 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4B8938D2078DD0700199682 /* PBXTargetDependency */,
+			);
+			name = UreedTests;
+			productName = UreedTests;
+			productReference = D4B8938B2078DD0700199682 /* UreedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4B893952078DD0700199682 /* UreedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4B893A52078DD0700199682 /* Build configuration list for PBXNativeTarget "UreedUITests" */;
+			buildPhases = (
+				D4B893922078DD0700199682 /* Sources */,
+				D4B893932078DD0700199682 /* Frameworks */,
+				D4B893942078DD0700199682 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4B893982078DD0700199682 /* PBXTargetDependency */,
+			);
+			name = UreedUITests;
+			productName = UreedUITests;
+			productReference = D4B893962078DD0700199682 /* UreedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4B8936F2078DD0600199682 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Ureed;
+				TargetAttributes = {
+					D4B893762078DD0600199682 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D4B8938A2078DD0700199682 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D4B893762078DD0600199682;
+					};
+					D4B893952078DD0700199682 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D4B893762078DD0600199682;
+					};
+				};
+			};
+			buildConfigurationList = D4B893722078DD0600199682 /* Build configuration list for PBXProject "Ureed" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4B8936E2078DD0600199682;
+			productRefGroup = D4B893782078DD0600199682 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4B893762078DD0600199682 /* Ureed */,
+				D4B8938A2078DD0700199682 /* UreedTests */,
+				D4B893952078DD0700199682 /* UreedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4B893752078DD0600199682 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B893852078DD0600199682 /* LaunchScreen.storyboard in Resources */,
+				D4B893822078DD0600199682 /* Assets.xcassets in Resources */,
+				D4B893802078DD0600199682 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B893892078DD0700199682 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B893942078DD0700199682 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4B893732078DD0600199682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B8937D2078DD0600199682 /* ViewController.swift in Sources */,
+				D4B8937B2078DD0600199682 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B893872078DD0700199682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B893902078DD0700199682 /* UreedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B893922078DD0700199682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B8939B2078DD0700199682 /* UreedUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4B8938D2078DD0700199682 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4B893762078DD0600199682 /* Ureed */;
+			targetProxy = D4B8938C2078DD0700199682 /* PBXContainerItemProxy */;
+		};
+		D4B893982078DD0700199682 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4B893762078DD0600199682 /* Ureed */;
+			targetProxy = D4B893972078DD0700199682 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4B8937E2078DD0600199682 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4B8937F2078DD0600199682 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4B893832078DD0600199682 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4B893842078DD0600199682 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4B8939D2078DD0700199682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4B8939E2078DD0700199682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4B893A02078DD0700199682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ureed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ureed.Ureed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4B893A12078DD0700199682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ureed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ureed.Ureed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4B893A32078DD0700199682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UreedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ureed.UreedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ureed.app/Ureed";
+			};
+			name = Debug;
+		};
+		D4B893A42078DD0700199682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UreedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ureed.UreedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ureed.app/Ureed";
+			};
+			name = Release;
+		};
+		D4B893A62078DD0700199682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UreedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ureed.UreedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ureed;
+			};
+			name = Debug;
+		};
+		D4B893A72078DD0700199682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UreedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ureed.UreedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ureed;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4B893722078DD0600199682 /* Build configuration list for PBXProject "Ureed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4B8939D2078DD0700199682 /* Debug */,
+				D4B8939E2078DD0700199682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4B8939F2078DD0700199682 /* Build configuration list for PBXNativeTarget "Ureed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4B893A02078DD0700199682 /* Debug */,
+				D4B893A12078DD0700199682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4B893A22078DD0700199682 /* Build configuration list for PBXNativeTarget "UreedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4B893A32078DD0700199682 /* Debug */,
+				D4B893A42078DD0700199682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4B893A52078DD0700199682 /* Build configuration list for PBXNativeTarget "UreedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4B893A62078DD0700199682 /* Debug */,
+				D4B893A72078DD0700199682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4B8936F2078DD0600199682 /* Project object */;
+}
