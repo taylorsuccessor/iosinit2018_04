@@ -922,7 +922,6 @@
 				D4D944BF2078F22D0037BFF8 /* NoDataView */,
 				D4D944C42078F22D0037BFF8 /* VerificationCodeView */,
 				D4D944C82078F22D0037BFF8 /* ExpandableTableView */,
-				D4D944CA2078F22D0037BFF8 /* HidingNavigationBar */,
 				D4D944CB2078F22D0037BFF8 /* BottomSheetView */,
 				D4D944D92078F22D0037BFF8 /* DropDownListView */,
 				D4D944DB2078F22D0037BFF8 /* DoneToolbar */,
@@ -1316,13 +1315,6 @@
 				D4D944C92078F22D0037BFF8 /* UIExpandableTableView.swift */,
 			);
 			path = ExpandableTableView;
-			sourceTree = "<group>";
-		};
-		D4D944CA2078F22D0037BFF8 /* HidingNavigationBar */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = HidingNavigationBar;
 			sourceTree = "<group>";
 		};
 		D4D944CB2078F22D0037BFF8 /* BottomSheetView */ = {
