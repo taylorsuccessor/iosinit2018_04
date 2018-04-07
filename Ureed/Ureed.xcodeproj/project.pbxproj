@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4659DF32078E60300CB6C21 /* APIManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4659DEA2078E60300CB6C21 /* APIManager.framework */; };
+		D4659DFA2078E60300CB6C21 /* APIManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4659DF92078E60300CB6C21 /* APIManagerTests.swift */; };
+		D4659DFC2078E60400CB6C21 /* APIManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D4659DEC2078E60300CB6C21 /* APIManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4659DFF2078E60400CB6C21 /* APIManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4659DEA2078E60300CB6C21 /* APIManager.framework */; };
+		D4659E002078E60400CB6C21 /* APIManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D4659DEA2078E60300CB6C21 /* APIManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D4659E162078E64200CB6C21 /* Util.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4659E0D2078E64200CB6C21 /* Util.framework */; };
+		D4659E1D2078E64200CB6C21 /* UtilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4659E1C2078E64200CB6C21 /* UtilTests.swift */; };
+		D4659E1F2078E64200CB6C21 /* Util.h in Headers */ = {isa = PBXBuildFile; fileRef = D4659E0F2078E64200CB6C21 /* Util.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4659E222078E64200CB6C21 /* Util.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4659E0D2078E64200CB6C21 /* Util.framework */; };
+		D4659E232078E64200CB6C21 /* Util.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D4659E0D2078E64200CB6C21 /* Util.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D4B8937B2078DD0600199682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8937A2078DD0600199682 /* AppDelegate.swift */; };
 		D4B8937D2078DD0600199682 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8937C2078DD0600199682 /* ViewController.swift */; };
 		D4B893802078DD0600199682 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4B8937E2078DD0600199682 /* Main.storyboard */; };
@@ -17,6 +27,48 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D4659DF42078E60300CB6C21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B8936F2078DD0600199682 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4659DE92078E60300CB6C21;
+			remoteInfo = APIManager;
+		};
+		D4659DF62078E60300CB6C21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B8936F2078DD0600199682 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4B893762078DD0600199682;
+			remoteInfo = Ureed;
+		};
+		D4659DFD2078E60400CB6C21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B8936F2078DD0600199682 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4659DE92078E60300CB6C21;
+			remoteInfo = APIManager;
+		};
+		D4659E172078E64200CB6C21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B8936F2078DD0600199682 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4659E0C2078E64200CB6C21;
+			remoteInfo = Util;
+		};
+		D4659E192078E64200CB6C21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B8936F2078DD0600199682 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4B893762078DD0600199682;
+			remoteInfo = Ureed;
+		};
+		D4659E202078E64200CB6C21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B8936F2078DD0600199682 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4659E0C2078E64200CB6C21;
+			remoteInfo = Util;
+		};
 		D4B8938C2078DD0700199682 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D4B8936F2078DD0600199682 /* Project object */;
@@ -33,7 +85,34 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D4659E062078E60400CB6C21 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D4659E232078E64200CB6C21 /* Util.framework in Embed Frameworks */,
+				D4659E002078E60400CB6C21 /* APIManager.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D4659DEA2078E60300CB6C21 /* APIManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APIManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4659DEC2078E60300CB6C21 /* APIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
+		D4659DED2078E60300CB6C21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4659DF22078E60300CB6C21 /* APIManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APIManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4659DF92078E60300CB6C21 /* APIManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManagerTests.swift; sourceTree = "<group>"; };
+		D4659DFB2078E60400CB6C21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4659E0D2078E64200CB6C21 /* Util.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Util.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4659E0F2078E64200CB6C21 /* Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		D4659E102078E64200CB6C21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4659E152078E64200CB6C21 /* UtilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UtilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4659E1C2078E64200CB6C21 /* UtilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilTests.swift; sourceTree = "<group>"; };
+		D4659E1E2078E64200CB6C21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4B893772078DD0600199682 /* Ureed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ureed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4B8937A2078DD0600199682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4B8937C2078DD0600199682 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,10 +129,42 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D4659DE62078E60300CB6C21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4659DEF2078E60300CB6C21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4659DF32078E60300CB6C21 /* APIManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4659E092078E64200CB6C21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4659E122078E64200CB6C21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4659E162078E64200CB6C21 /* Util.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D4B893742078DD0600199682 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4659E222078E64200CB6C21 /* Util.framework in Frameworks */,
+				D4659DFF2078E60400CB6C21 /* APIManager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +185,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D4659DEB2078E60300CB6C21 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				D4659DEC2078E60300CB6C21 /* APIManager.h */,
+				D4659DED2078E60300CB6C21 /* Info.plist */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		D4659DF82078E60300CB6C21 /* APIManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4659DF92078E60300CB6C21 /* APIManagerTests.swift */,
+				D4659DFB2078E60400CB6C21 /* Info.plist */,
+			);
+			path = APIManagerTests;
+			sourceTree = "<group>";
+		};
+		D4659E0E2078E64200CB6C21 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				D4659E0F2078E64200CB6C21 /* Util.h */,
+				D4659E102078E64200CB6C21 /* Info.plist */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		D4659E1B2078E64200CB6C21 /* UtilTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4659E1C2078E64200CB6C21 /* UtilTests.swift */,
+				D4659E1E2078E64200CB6C21 /* Info.plist */,
+			);
+			path = UtilTests;
+			sourceTree = "<group>";
+		};
 		D4B8936E2078DD0600199682 = {
 			isa = PBXGroup;
 			children = (
 				D4B893792078DD0600199682 /* Ureed */,
 				D4B8938E2078DD0700199682 /* UreedTests */,
 				D4B893992078DD0700199682 /* UreedUITests */,
+				D4659DEB2078E60300CB6C21 /* APIManager */,
+				D4659DF82078E60300CB6C21 /* APIManagerTests */,
+				D4659E0E2078E64200CB6C21 /* Util */,
+				D4659E1B2078E64200CB6C21 /* UtilTests */,
 				D4B893782078DD0600199682 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +241,10 @@
 				D4B893772078DD0600199682 /* Ureed.app */,
 				D4B8938B2078DD0700199682 /* UreedTests.xctest */,
 				D4B893962078DD0700199682 /* UreedUITests.xctest */,
+				D4659DEA2078E60300CB6C21 /* APIManager.framework */,
+				D4659DF22078E60300CB6C21 /* APIManagerTests.xctest */,
+				D4659E0D2078E64200CB6C21 /* Util.framework */,
+				D4659E152078E64200CB6C21 /* UtilTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,7 +282,100 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		D4659DE72078E60300CB6C21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4659DFC2078E60400CB6C21 /* APIManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4659E0A2078E64200CB6C21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4659E1F2078E64200CB6C21 /* Util.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		D4659DE92078E60300CB6C21 /* APIManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4659E052078E60400CB6C21 /* Build configuration list for PBXNativeTarget "APIManager" */;
+			buildPhases = (
+				D4659DE52078E60300CB6C21 /* Sources */,
+				D4659DE62078E60300CB6C21 /* Frameworks */,
+				D4659DE72078E60300CB6C21 /* Headers */,
+				D4659DE82078E60300CB6C21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APIManager;
+			productName = APIManager;
+			productReference = D4659DEA2078E60300CB6C21 /* APIManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D4659DF12078E60300CB6C21 /* APIManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4659E072078E60400CB6C21 /* Build configuration list for PBXNativeTarget "APIManagerTests" */;
+			buildPhases = (
+				D4659DEE2078E60300CB6C21 /* Sources */,
+				D4659DEF2078E60300CB6C21 /* Frameworks */,
+				D4659DF02078E60300CB6C21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4659DF52078E60300CB6C21 /* PBXTargetDependency */,
+				D4659DF72078E60300CB6C21 /* PBXTargetDependency */,
+			);
+			name = APIManagerTests;
+			productName = APIManagerTests;
+			productReference = D4659DF22078E60300CB6C21 /* APIManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4659E0C2078E64200CB6C21 /* Util */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4659E242078E64200CB6C21 /* Build configuration list for PBXNativeTarget "Util" */;
+			buildPhases = (
+				D4659E082078E64200CB6C21 /* Sources */,
+				D4659E092078E64200CB6C21 /* Frameworks */,
+				D4659E0A2078E64200CB6C21 /* Headers */,
+				D4659E0B2078E64200CB6C21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Util;
+			productName = Util;
+			productReference = D4659E0D2078E64200CB6C21 /* Util.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D4659E142078E64200CB6C21 /* UtilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4659E272078E64200CB6C21 /* Build configuration list for PBXNativeTarget "UtilTests" */;
+			buildPhases = (
+				D4659E112078E64200CB6C21 /* Sources */,
+				D4659E122078E64200CB6C21 /* Frameworks */,
+				D4659E132078E64200CB6C21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4659E182078E64200CB6C21 /* PBXTargetDependency */,
+				D4659E1A2078E64200CB6C21 /* PBXTargetDependency */,
+			);
+			name = UtilTests;
+			productName = UtilTests;
+			productReference = D4659E152078E64200CB6C21 /* UtilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D4B893762078DD0600199682 /* Ureed */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4B8939F2078DD0700199682 /* Build configuration list for PBXNativeTarget "Ureed" */;
@@ -135,10 +383,13 @@
 				D4B893732078DD0600199682 /* Sources */,
 				D4B893742078DD0600199682 /* Frameworks */,
 				D4B893752078DD0600199682 /* Resources */,
+				D4659E062078E60400CB6C21 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D4659DFE2078E60400CB6C21 /* PBXTargetDependency */,
+				D4659E212078E64200CB6C21 /* PBXTargetDependency */,
 			);
 			name = Ureed;
 			productName = Ureed;
@@ -191,6 +442,24 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Ureed;
 				TargetAttributes = {
+					D4659DE92078E60300CB6C21 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D4659DF12078E60300CB6C21 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D4B893762078DD0600199682;
+					};
+					D4659E0C2078E64200CB6C21 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D4659E142078E64200CB6C21 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D4B893762078DD0600199682;
+					};
 					D4B893762078DD0600199682 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -223,11 +492,43 @@
 				D4B893762078DD0600199682 /* Ureed */,
 				D4B8938A2078DD0700199682 /* UreedTests */,
 				D4B893952078DD0700199682 /* UreedUITests */,
+				D4659DE92078E60300CB6C21 /* APIManager */,
+				D4659DF12078E60300CB6C21 /* APIManagerTests */,
+				D4659E0C2078E64200CB6C21 /* Util */,
+				D4659E142078E64200CB6C21 /* UtilTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D4659DE82078E60300CB6C21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4659DF02078E60300CB6C21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4659E0B2078E64200CB6C21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4659E132078E64200CB6C21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D4B893752078DD0600199682 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -255,6 +556,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D4659DE52078E60300CB6C21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4659DEE2078E60300CB6C21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4659DFA2078E60300CB6C21 /* APIManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4659E082078E64200CB6C21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4659E112078E64200CB6C21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4659E1D2078E64200CB6C21 /* UtilTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D4B893732078DD0600199682 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -283,6 +614,36 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D4659DF52078E60300CB6C21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4659DE92078E60300CB6C21 /* APIManager */;
+			targetProxy = D4659DF42078E60300CB6C21 /* PBXContainerItemProxy */;
+		};
+		D4659DF72078E60300CB6C21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4B893762078DD0600199682 /* Ureed */;
+			targetProxy = D4659DF62078E60300CB6C21 /* PBXContainerItemProxy */;
+		};
+		D4659DFE2078E60400CB6C21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4659DE92078E60300CB6C21 /* APIManager */;
+			targetProxy = D4659DFD2078E60400CB6C21 /* PBXContainerItemProxy */;
+		};
+		D4659E182078E64200CB6C21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4659E0C2078E64200CB6C21 /* Util */;
+			targetProxy = D4659E172078E64200CB6C21 /* PBXContainerItemProxy */;
+		};
+		D4659E1A2078E64200CB6C21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4B893762078DD0600199682 /* Ureed */;
+			targetProxy = D4659E192078E64200CB6C21 /* PBXContainerItemProxy */;
+		};
+		D4659E212078E64200CB6C21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4659E0C2078E64200CB6C21 /* Util */;
+			targetProxy = D4659E202078E64200CB6C21 /* PBXContainerItemProxy */;
+		};
 		D4B8938D2078DD0700199682 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D4B893762078DD0600199682 /* Ureed */;
@@ -315,6 +676,158 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D4659E012078E60400CB6C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = APIManager/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ureed.APIManager;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D4659E022078E60400CB6C21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = APIManager/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ureed.APIManager;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D4659E032078E60400CB6C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = APIManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ureed.APIManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ureed.app/Ureed";
+			};
+			name = Debug;
+		};
+		D4659E042078E60400CB6C21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = APIManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ureed.APIManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ureed.app/Ureed";
+			};
+			name = Release;
+		};
+		D4659E252078E64200CB6C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Util/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ureed.Util;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D4659E262078E64200CB6C21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Util/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ureed.Util;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D4659E282078E64200CB6C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UtilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ureed.UtilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ureed.app/Ureed";
+			};
+			name = Debug;
+		};
+		D4659E292078E64200CB6C21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UtilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ureed.UtilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ureed.app/Ureed";
+			};
+			name = Release;
+		};
 		D4B8939D2078DD0700199682 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -515,6 +1028,42 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D4659E052078E60400CB6C21 /* Build configuration list for PBXNativeTarget "APIManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4659E012078E60400CB6C21 /* Debug */,
+				D4659E022078E60400CB6C21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4659E072078E60400CB6C21 /* Build configuration list for PBXNativeTarget "APIManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4659E032078E60400CB6C21 /* Debug */,
+				D4659E042078E60400CB6C21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4659E242078E64200CB6C21 /* Build configuration list for PBXNativeTarget "Util" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4659E252078E64200CB6C21 /* Debug */,
+				D4659E262078E64200CB6C21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4659E272078E64200CB6C21 /* Build configuration list for PBXNativeTarget "UtilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4659E282078E64200CB6C21 /* Debug */,
+				D4659E292078E64200CB6C21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D4B893722078DD0600199682 /* Build configuration list for PBXProject "Ureed" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
