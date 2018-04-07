@@ -1,6 +1,6 @@
 //
 //  UIButtonExtension.swift
-//  GameGo
+//  Ureed
 //
 //  Created by Amjad Tubasi on 2/8/18.
 //  Copyright © 2018 Amjad Tubasi. All rights reserved.

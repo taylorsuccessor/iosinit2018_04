@@ -44,3 +44,43 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+//MARK: App Delegate Extensions
+
+extension AppDelegate {
+    
+    class var shared : AppDelegate {
+        return UIApplication.shared.delegate as! AppDelegate
+    }
+    
+    func switchTo(rootViewController rootVC: UIViewController, animated: Bool = true, completion: (() -> Void)?) {
+    
+        guard animated else {
+            window!.rootViewController = rootVC
+            completion?()
+            return
+        }
+        
+        UIView.transition(with: window!, duration: 0.5, options: .transitionCrossDissolve, animations: {
+            let oldState: Bool = UIView.areAnimationsEnabled
+            UIView.setAnimationsEnabled(false)
+            self.window!.rootViewController = rootVC
+            UIView.setAnimationsEnabled(oldState)
+        }, completion: { (finished: Bool) -> () in
+            completion?()
+        })
+    }
+    
+    func styleApp(){
+        let navigationBarAppearace = UINavigationBar.appearance()
+        
+        navigationBarAppearace.tintColor = UIColor.white
+        navigationBarAppearace.barTintColor = UIColor.blue
+        
+        navigationBarAppearace.titleTextAttributes =  [.foregroundColor:UIColor.white]
+        
+        let tabbarAppearance = UITabBar.appearance()
+        tabbarAppearance.tintColor = UIColor.white
+        tabbarAppearance.barTintColor = UIColor.yellow
+        
+    }
+}

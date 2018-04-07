@@ -1,6 +1,6 @@
 //
 //  UIAlertControllerExtensions.swift
-//  GameGo
+//  Ureed
 //
 //  Created by Amjad Tubasi on 12/17/17.
 //  Copyright © 2017 Amjad Tubasi. All rights reserved.
@@ -11,7 +11,7 @@ import UIKit
 
 public extension UIAlertController {
     
-    public class func showAlert(title:String = "GameGo".localized,
+    public class func showAlert(title:String = "Ureed".localized,
                          message:String? = nil,
                          doneButton:String = "OK".localized,
                          cancelButton:String? = nil,

@@ -1,6 +1,6 @@
 //
 //  UIApplicationExtensions.swift
-//  GameGo
+//  Ureed
 //
 //  Created by Amjad Tubasi on 12/11/17.
 //  Copyright © 2017 Amjad Tubasi. All rights reserved.
