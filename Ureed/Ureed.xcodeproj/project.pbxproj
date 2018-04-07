@@ -849,8 +849,7 @@
 			children = (
 				D4D9444C2078F1510037BFF8 /* NotificationsCenterHelper.swift */,
 			);
-			name = NotificationsCenter;
-			path = ../../../../GameGo/GameGo/GameGo/Managers/NotificationsCenter;
+			path = NotificationsCenter;
 			sourceTree = "<group>";
 		};
 		D4D9444D2078F1510037BFF8 /* ImageLoader */ = {
@@ -858,8 +857,7 @@
 			children = (
 				D4D9444E2078F1510037BFF8 /* ImageLoaderHelper.swift */,
 			);
-			name = ImageLoader;
-			path = ../../../../GameGo/GameGo/GameGo/Managers/ImageLoader;
+			path = ImageLoader;
 			sourceTree = "<group>";
 		};
 		D4D9444F2078F1510037BFF8 /* Constants */ = {
@@ -867,8 +865,7 @@
 			children = (
 				D4D944502078F1510037BFF8 /* Constants.swift */,
 			);
-			name = Constants;
-			path = ../../../../GameGo/GameGo/GameGo/Managers/Constants;
+			path = Constants;
 			sourceTree = "<group>";
 		};
 		D4D944512078F1510037BFF8 /* Constraints */ = {
@@ -876,8 +873,7 @@
 			children = (
 				D4D944522078F1510037BFF8 /* ConstraintsHelper.swift */,
 			);
-			name = Constraints;
-			path = ../../../../GameGo/GameGo/GameGo/Managers/Constraints;
+			path = Constraints;
 			sourceTree = "<group>";
 		};
 		D4D944532078F1510037BFF8 /* ImagePicker */ = {
@@ -885,8 +881,7 @@
 			children = (
 				D4D944542078F1510037BFF8 /* ImagePicker.swift */,
 			);
-			name = ImagePicker;
-			path = ../../../../GameGo/GameGo/GameGo/Managers/ImagePicker;
+			path = ImagePicker;
 			sourceTree = "<group>";
 		};
 		D4D944552078F1510037BFF8 /* Prefrenaces */ = {
@@ -895,8 +890,7 @@
 				D4D944562078F1510037BFF8 /* Prefrances.swift */,
 				D4D944572078F1510037BFF8 /* ThirdPartyIntegrations.swift */,
 			);
-			name = Prefrenaces;
-			path = ../../../../GameGo/GameGo/GameGo/Managers/Prefrenaces;
+			path = Prefrenaces;
 			sourceTree = "<group>";
 		};
 		D4D944582078F1510037BFF8 /* ActionManager */ = {
@@ -904,8 +898,7 @@
 			children = (
 				D4D944592078F1510037BFF8 /* ActionManager.swift */,
 			);
-			name = ActionManager;
-			path = ../../../../GameGo/GameGo/GameGo/Managers/ActionManager;
+			path = ActionManager;
 			sourceTree = "<group>";
 		};
 		D4D9445A2078F1510037BFF8 /* ErrorManager */ = {
@@ -913,8 +906,7 @@
 			children = (
 				D4D9445B2078F1510037BFF8 /* ErrorManager.swift */,
 			);
-			name = ErrorManager;
-			path = ../../../../GameGo/GameGo/GameGo/Managers/ErrorManager;
+			path = ErrorManager;
 			sourceTree = "<group>";
 		};
 		D4D944652078F22D0037BFF8 /* CustomViews */ = {
